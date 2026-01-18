@@ -13,5 +13,4 @@ This project was developed by:
 - Script
 - Stylization
 
-## 
-When creating this project, I took an example from the Wikipedia page of Lviv Polytechnic University and tried to make the website look identical to the Wikipedia article and fully functional, including links and search within Wikipedia itself.
+## When creating this project, I took an example from the Wikipedia page of Lviv Polytechnic University and tried to make the website look identical to the Wikipedia article and fully functional, including links and search within Wikipedia itself.
