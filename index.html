@@ -6,22 +6,20 @@
     <title>Східницький ЗЗСО</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="body light">
-    <div class="container">
-        <header class="header" id="header">
+<body class="body">
+    <!-- <div class="container"> -->
+        <!-- <header class="header" id="header"> -->
             <div class="header-container">
                 <div class="left-header-container">
                     <div id="main-menu-button" onclick="toggleMenu()">
-                        <svg  xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 50 50">
-                        <path d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"></path>
-                        </svg>                    
+                        <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 18L20 18" stroke="#000000" stroke-width="2.4" stroke-linecap="round"></path> <path d="M4 12L20 12" stroke="#000000" stroke-width="2.4" stroke-linecap="round"></path> <path d="M4 6L20 6" stroke="#000000" stroke-width="2.4" stroke-linecap="round"></path> </g></svg>                    
                     </div>
 
-                    <a href="https://uk.wikipedia.org/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0" class="logo-container link">
-                        <img src="./images/wiki-logo.jpg" class="logo-img" alt="">
-                        <div class="logo-text">
-                            <h1 class="logo-title">ВікіпедіЯ</h1>
-                            <h3 class="logo-small-text">Вільна екциклопедія</h3>
+                    <a href="https://uk.wikipedia.org/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0" class="logo-container">
+                        <img src="./images/wiki-logo.png" class="logo-img" alt="">
+                        <div>
+                            <h1 class="logo-title logo-text"><span class="big-letters">В</span>ІКІПЕДІ<span class="big-letters">Я</span></h1>
+                            <h3 class="logo-small-text logo-text">Вільна екциклопедія</h3>
                         </div>
                     </a>
                     <div class="input-container">
@@ -38,7 +36,9 @@
                     <a href="https://auth.wikimedia.org/ukwiki/wiki/%D0%A1%D0%BF%D0%B5%D1%86%D1%96%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0:%D0%92%D1%85%D1%96%D0%B4?useformat=desktop&usesul3=1&returnto=%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0+%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0&centralauthLoginToken=49470293b537c84034dfe01c54b26fbf" class="header-link link">Увійти</a>
                 </div>      
             </div>
-        </header>
+
+    <div class="container">        
+        <!-- </header> -->
         <main class="main">
             <div class="left-content">
                 <div class="full-left-content">
@@ -63,17 +63,17 @@
                     <hr class="top-line">
                     <div class="second-top-nav">
                         <div class="left-top-nav">
-                            <p class="nav-text active">Стаття</p>
-                            <p class="nav-text">Обговорення</p>
+                            <p class=" link nav-link active">Стаття</p>
+                            <a href="#" class="nav-link link">Обговорення</a>
                         </div>
                         <div class="right-top-nav">
-                            <p class="nav-text active">Читати</p>
-                            <p class="nav-text">Редагувати</p>
-                            <p class="nav-text">Редагувати код</p>
-                            <p class="nav-text">Переглянути історію</p>
+                            <a href="#" class="link nav-link active">Читати</a>
+                            <a href="#" class="link nav-link ">Редагувати</a>
+                            <a href="#" class="link nav-link ">Редагувати код</a>
+                            <a href="#" class="link nav-link ">Переглянути історію</a>
                         </div>
                     </div>
-                    <hr class="line second-line">
+                    <hr class="line">
                     <p class="top-bottom-text"  id="history">Матеріал з Вікіпедії — вільної енциклопедії.</p>
                 </div>
                 <div class="info-block">
@@ -122,20 +122,20 @@
                                     </table>
                                 </div>
                                 <span class="first-span-text" id="second-info-first-text">
-                                    <span class="bold">Cхідницький ЗЗСО</span>(офіційна назва Східницький заклад загальної середньої освіти І-ІІІ рівнів Східницької ТГ Дрогобицького району Львівської області) — заклад загальної середньої
+                                    <span class="bold">Cхідницький ЗЗСО</span> (офіційна назва Східницький заклад загальної середньої освіти І-ІІІ рівнів Східницької ТГ Дрогобицького району Львівської області) — заклад загальної середньої
                                     освіти селища Східниця.
                                 </span>
                             </p>
                         <div class="second-info">
-                            <h2 class="second-title">Історія</h2>
+                            <h2 class="second-title" data-key="history">Історія</h2>
                             <hr class="line">
                             <div class="second-info-text">
-                                <h3 class="info-title">Зародження шкільництва в Східниці</h3>
-                                <p class="second-info-first-parag">
+                                <h3 class="info-title" data-key="historyTitle1">Зародження шкільництва в Східниці</h3>
+                                <p class="second-info-first-parag" data-key="historyText1">
                                     Наприкінці XVІІІ–на початку ХІХ ст., завдяки послідовній позиції Греко-Католицької Церкви та австрійської влади у сфері народної освіти, 
                                     у Галичині активізувався процес заснування парафіяльних та тривіяльних шкіл. Після прийняття в імперії Габсбурґів закону «Політична 
                                     устава шкільна» (11 серпня 1805 р.), відповідно до якого в кожній місцевості, де був парафіяльний священик та провадилися метричні книги, 
-                                    мала бути па-рафіяльна школа. У парафії Східниця на той час були метричні книги, отже, юридичних перешкод для створення школи не було.
+                                    мала бути парафіяльна школа. У парафії Східниця на той час були метричні книги, отже, юридичних перешкод для створення школи не було.
                                     Уперше Східницька парафіяльна школа згадується у шкільному шематизмі 1837 р., однак у ньому не подано ні числа учнів, ні імені вчителя та його платні. 
                                     Цілком можливо, що через брак вчителя або учнів школа на той час була нечинною. Польський дослідник парафіяльного шкільництва
                                     на українсько-польському пограниччі Р. Пельчар на основі тих же документів стверджує про існування школи в Східниці у 1846-49, 1853-54 рр.
@@ -216,11 +216,11 @@
                     <div class="change-menu">
                         <h4 class="change-title">Тема</h4>
                         <div class="text-options" id="light-theme">
-                            <div class="circle" id="light-circle"></div>
-                            <p class="text-option ">Світла</p>
+                            <div class="circle active-option" id="light-circle"></div>
+                            <p class="text-option">Світла</p>
                         </div>
                         <div class="text-options" id="dark-theme">
-                            <div class="circle active-option" id="dark.circle"></div>
+                            <div class="circle" id="dark-circle"></div>
                             <p class="text-option">Темна</p>
                         </div>
                     </div>                
