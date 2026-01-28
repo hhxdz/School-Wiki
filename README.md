@@ -1,7 +1,7 @@
 # School-Wiki
 A Website of the Wikipedia page about the Skhidnytsia school 
 
-![screen of main page](./school-wiki-zip/images/main-page.png)
+![screen of main page](./images/main-page.png)
 
 ## Contributor
 This project was developed by:
